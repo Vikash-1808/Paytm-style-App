@@ -1,16 +1,61 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a frontend clone of Paytm, replicating the UI and user experience of the Paytm app/website using React and Tailwind CSS. It focuses on the layout, design, and interactive components, without backend integration.
 
-## React Compiler
+Key interactions implemented:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+When you hover over the header section, dropdown menus appear with list items, similar to Paytm.
 
-## Expanding the ESLint configuration
+When you click on the Sign In button, a QR code is displayed for login.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Features
+
+Responsive dashboard layout similar to Paytm.
+
+Functional navigation bar and header hover dropdowns.
+
+Interactive cards for wallets, payments, and services.
+
+Sign In QR code popup on click.
+
+React components for modular and reusable UI elements.
+
+Technologies Used
+
+React.js – Component-based frontend.
+
+Tailwind CSS – Styling and responsive design.
+
+React Icons – For UI icons.
+
+Optional: React Router for page navigation (if implemented).
+
+Project Structure
+src/
+ ├─ assets/           # Images, icons, and other static files
+ ├─ components/       # Reusable UI components
+ ├─ pages/            # Different UI pages/screens
+ ├─ App.js            # Main app layout
+ └─ index.js          # Entry point
+
+Usage
+
+Clone the repository:
+
+git clone <repo-url>
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm start
+
+
+Open http://localhost:3000 in your browser.
