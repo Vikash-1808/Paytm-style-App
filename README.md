@@ -1,6 +1,5 @@
 # React + Vite
 
-
 Overview
 
 This project is a frontend clone of Paytm, replicating the UI and user experience of the Paytm app/website using React and Tailwind CSS. It focuses on the layout, design, and interactive components, without backend integration.
@@ -10,6 +9,8 @@ Key interactions implemented:
 When you hover over the header section, dropdown menus appear with list items, similar to Paytm.
 
 When you click on the Sign In button, a QR code is displayed for login.
+
+React Icons are used to enhance the UI with visually appealing and consistent icons.
 
 Features
 
@@ -21,7 +22,9 @@ Interactive cards for wallets, payments, and services.
 
 Sign In QR code popup on click.
 
-React components for modular and reusable UI elements.
+Modular and reusable React components for clean structure and scalability.
+
+React Icons integrated for improved UI aesthetics.
 
 Technologies Used
 
